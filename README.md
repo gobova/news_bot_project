@@ -2,9 +2,10 @@
 Установка зависимостей
 ```
 pip install -r requirements.txt
+python -m spacy download ru_core_news_md
 ```
 
-Запуск бота
+Запуск
 ```
-python bot.py
+python src/main.py
 ```
